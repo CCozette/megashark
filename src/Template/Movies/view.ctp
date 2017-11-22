@@ -38,6 +38,10 @@
             <th scope="row"><?= __('Modified') ?></th>
             <td><?= h($movie->modified) ?></td>
         </tr>
+        <tr>
+            <th scope="row"><?= __('Release_date') ?></th>
+            <td><?= h($movie->release_date) ?></td>
+        </tr>
     </table>
     <div class="row">
         <h4><?= __('Description') ?></h4>
@@ -55,6 +59,7 @@
                 <th scope="col"><?= __('End') ?></th>
                 <th scope="col"><?= __('Created') ?></th>
                 <th scope="col"><?= __('Modified') ?></th>
+                <th scope="col"><?= __('release_date') ?></th>
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
             <?php foreach ($movie->showtimes as $showtimes): ?>
