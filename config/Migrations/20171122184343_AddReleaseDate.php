@@ -16,6 +16,6 @@ class AddReleaseDate extends AbstractMigration
             $table->addColumn('release_date', 'date', [
             'default' => null,
             'null' => true, 
-            ]);
+            ]); 
     }
 }
